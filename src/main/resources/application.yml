@@ -1,0 +1,19 @@
+student:
+  age: 28
+  name: zjw
+  id: 4
+dept:
+  deptno: 1
+  db-source: 2
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: yyf
+    password: yyf123
+    virtual-host: /vhost_yyf
+    listener:
+      direct:
+        retry:
+          enabled: true
+          max-attempts: 5
