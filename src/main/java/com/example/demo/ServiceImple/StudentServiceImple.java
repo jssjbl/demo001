@@ -108,7 +108,6 @@ public class StudentServiceImple implements StudentService {
                 studentVo.setCreateTime(res);
                 list.add(studentVo);
             }
-
         }
         return list;
     }
