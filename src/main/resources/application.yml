@@ -17,3 +17,6 @@ spring:
         retry:
           enabled: true
           max-attempts: 5
+  http:
+    encoding:
+      charset: GBK

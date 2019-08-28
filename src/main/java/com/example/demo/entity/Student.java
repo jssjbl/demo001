@@ -1,7 +1,9 @@
 package com.example.demo.entity;
 
-import java.util.Date;
+import lombok.Data;
 
+import java.util.Date;
+@Data
 public class Student {
     private Long id;
 
